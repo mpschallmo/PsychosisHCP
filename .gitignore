@@ -1,3 +1,10 @@
+# additions by cao 6 Sept 2017
+.DS_Store
+pRFinputs/.DS_Store
+*.edf
+.iohpid
+*.asc
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
