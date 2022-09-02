@@ -6,17 +6,17 @@ Code authors: Michael-Paul Schallmo, Andrea N. Grant, and Cheryl A. Olman
 
 System requirements:
 
-○ AFNI 18.2.04
-○ FreeSurfer 5.3
-○ Matlab 2016a
-○ Matlab 2014a
-○ Matlab 2009a
-○ Python 2.7
-○ PsychoPy 1.85.2
-○ gradunwarp 1.0.3
-○ matspec (matlab toolbox)
-○ Gannet 3.0 (matlab toolbox)
-○ SPM8 (matlab toolbox)
+AFNI 18.2.04
+FreeSurfer 5.3
+Matlab 2016a
+Matlab 2014a
+Matlab 2009a
+Python 2.7
+PsychoPy 1.85.2
+gradunwarp 1.0.3
+matspec (matlab toolbox)
+Gannet 3.0 (matlab toolbox)
+SPM8 (matlab toolbox)
 
 Shell scripts written for and run in tcsh (t-shell)
 Tested on Linux Red Hat version 6.10
