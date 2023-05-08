@@ -66,7 +66,8 @@ if  !(-f {$sub_MNI_dir}SUMA_T1_alFS.nii.gz) then
 endif
 
 
-# copy the talaraich xform
+# copy the talairach xform - note that even though this is called Talairach, 
+# it is actually MNI305 space: https://surfer.nmr.mgh.harvard.edu/fswiki/CoordinateSystems
 if  !(-f {$sub_MNI_dir}talairach.xfm) then
     cp {$mri_dir}transforms/talairach.xfm {$sub_MNI_dir}/.
 endif
