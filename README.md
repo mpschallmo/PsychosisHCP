@@ -48,6 +48,9 @@ Experiment code in the tasks folder should be run in PsychoPy, with a mirrored a
 FMRI processing is done by proc_unwarp_GLM.csh -- this typically takes multiple hours to run for a single data sets on our server.
 
 MRS processing is done in 3 stages by single_page_phcp_func.m -- each stage takes about 10 - 30 minutes (to process all data sets) on our server.
+Note that to use the "createLCmodel_control_steam7T_phcp_lipids.m file for creating LCModel control files, you will need to add a 'steam_phcp' case to processing_LCmodel.m in the matspec toolbox -- for example:
+   case 'steam_phcp'
+   P = createLCmodel_control_steam7T_phcp(fullfile(pathstr,filename),l1,l2,l3,preproc_dir)
 
 For full details, see our manuscript entitled "The Psychosis Human Connectome Project: Design and rationale for studies of visual neurophysiology"
 
